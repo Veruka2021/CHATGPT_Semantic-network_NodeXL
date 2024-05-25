@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ExportToEmailUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="MergeDuplicateEdgesUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="AutomatedGraphImageUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="GraphImageUserSettings2" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="ExportToNodeXLGraphGalleryUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="AutoScaleUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="ImportDataUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="AutomateTasksUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="GraphMetricUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="LayoutUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="AutoFillUserSettings3" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="GroupUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="ColumnGroupUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="ClusterUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="GraphZoomAndScaleUserSettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+      <section name="GeneralUserSettings4" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <userSettings>
+    <ExportToEmailUserSettings>
+      <setting name="SmtpUserName" serializeAs="String">
+        <value>email@domain.abc</value>
+      </setting>
+      <setting name="SpaceDelimitedToAddresses" serializeAs="String">
+        <value>email@domain.abc</value>
+      </setting>
+      <setting name="ExportWorkbookAndSettings" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ExportGraphML" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="SmtpPort" serializeAs="String">
+        <value>11</value>
+      </setting>
+      <setting name="UseSslForSmtp" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="UseFixedAspectRatio" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="MessageBody" serializeAs="String">
+        <value>&lt;img src="http://www.nodexlgraphgallery.org/Images/SiteLogo.png" /&gt;
+
+This graph was brought to you by NodeXL Pro.
+
+{Graph Image}
+
+{Graph Summary}
+
+For more information, go to &lt;a href="https://nodexlgraphgallery.org/Pages/Registration.aspx"&gt;NodeXL Pro&lt;/a&gt;.</value>
+      </setting>
+      <setting name="SmtpHost" serializeAs="String">
+        <value>mail.domain.abc</value>
+      </setting>
+      <setting name="FromAddress" serializeAs="String">
+        <value>email@domain.abc</value>
+      </setting>
+    </ExportToEmailUserSettings>
+    <MergeDuplicateEdgesUserSettings>
+      <setting name="ThirdColumnNameForDuplicateDetection" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="DeleteDuplicates" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="CountDuplicates" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </MergeDuplicateEdgesUserSettings>
+    <AutomatedGraphImageUserSettings>
+      <setting name="IncludeFooter" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ImageSizePx" serializeAs="String">
+        <value>4096, 3072</value>
+      </setting>
+      <setting name="HeaderFooterFont" serializeAs="String">
+        <value>Microsoft Sans Serif, 8.25pt</value>
+      </setting>
+      <setting name="HeaderText" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="IncludeHeader" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="FooterText" serializeAs="String">
+        <value>Created with NodeXL Pro from the Social Media Research Foundation (http://www.smrfoundation.org)</value>
+      </setting>
+      <setting name="ImageFormat" serializeAs="String">
+        <value>Png</value>
+      </setting>
+    </AutomatedGraphImageUserSettings>
+    <GraphImageUserSettings2>
+      <setting name="ImageSize" serializeAs="String">
+        <value>4092, 3072</value>
+      </setting>
+      <setting name="UseControlSize" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="HeaderFooterFont" serializeAs="String">
+        <value>Microsoft Sans Serif, 8.25pt</value>
+      </setting>
+      <setting name="HeaderText" serializeAs="String">
+        <value>
+        </value>
+      </setting>
+      <setting name="IncludeHeader" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="IncludeFooter" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="FooterText" serializeAs="String">
+        <value>
+        </value>
+      </setting>
+    </GraphImageUserSettings2>
+    <ExportToNodeXLGraphGalleryUserSettings>
+      <setting name="Author" serializeAs="String">
+        <value>SMRFoundation</value>
+      </setting>
+      <setting name="ExportGraphML" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="SpaceDelimitedTags" serializeAs="String">
+        <value>#DMI #TumblrTool #NodeXL</value>
+      </setting>
+      <setting name="UseCredentials" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ExportWorkbookAndSettings" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="UseFixedAspectRatio" serializeAs="String">
+        <value>False</value>
+      </setting>
+    </ExportToNodeXLGraphGalleryUserSettings>
+    <AutoScaleUserSettings>
+      <setting name="AutoScale" serializeAs="String">
+        <value>False</value>
+      </setting>
+    </AutoScaleUserSettings>
+    <ImportDataUserSettings>
+      <setting name="SaveImportDescription" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="AutomateAfterImport" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ClearTablesBeforeImport" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </ImportDataUserSettings>
+    <AutomateTasksUserSettings>
+      <setting name="AutomateThisWorkbookOnly" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="FolderToAutomate" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="TasksToRun" serializeAs="String">
+        <value>CalculateGraphMetrics, AutoFillWorkbook, CalculateClusters, ReadWorkbook</value>
+      </setting>
+      <setting name="FolderToSaveWorkbookTo" serializeAs="String">
+        <value>C:\Users\Space Lab\Documents</value>
+      </setting>
+    </AutomateTasksUserSettings>
+    <GraphMetricUserSettings>
+      <setting name="GraphMetricsToCalculate" serializeAs="String">
+        <value>InDegree, OutDegree, Degree, ClusteringCoefficient, BrandesFastCentralities, EigenvectorCentrality, PageRank, OverallMetrics, GroupMetrics, EdgeReciprocation, ReciprocatedVertexPairRatio</value>
+      </setting>
+    </GraphMetricUserSettings>
+    <LayoutUserSettings>
+      <setting name="FruchtermanReingoldIterations" serializeAs="String">
+        <value>10</value>
+      </setting>
+      <setting name="IntergroupEdgeStyle" serializeAs="String">
+        <value>Show</value>
+      </setting>
+      <setting name="FruchtermanReingoldC" serializeAs="String">
+        <value>3</value>
+      </setting>
+      <setting name="BoxLayoutAlgorithm" serializeAs="String">
+        <value>Treemap</value>
+      </setting>
+      <setting name="ImproveLayoutOfGroups" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="LayoutStyle" serializeAs="String">
+        <value>UseGroups</value>
+      </setting>
+      <setting name="GroupRectanglePenWidth" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="Margin" serializeAs="String">
+        <value>5</value>
+      </setting>
+      <setting name="Layout" serializeAs="String">
+        <value>HarelKorenFastMultiscale</value>
+      </setting>
+    </LayoutUserSettings>
+    <AutoFillUserSettings3>
+      <setting name="VertexColorDetails" serializeAs="String">
+        <value>False	False	0	10	241, 137, 4	46, 7, 195	False	False	True</value>
+      </setting>
+      <setting name="EdgeLabelSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexXSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexLayoutOrderSourceColumnName" serializeAs="String">
+        <value>Degree</value>
+      </setting>
+      <setting name="VertexRadiusSourceColumnName" serializeAs="String">
+        <value>Degree</value>
+      </setting>
+      <setting name="EdgeColorDetails" serializeAs="String">
+        <value>False	False	0	0	Silver	0, 128, 192	True	False	True</value>
+      </setting>
+      <setting name="VertexLabelFillColorDetails" serializeAs="String">
+        <value>False	False	0	10	241, 137, 4	46, 7, 195	False	False	True</value>
+      </setting>
+      <setting name="VertexShapeSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexPolarRSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EdgeVisibilityDetails" serializeAs="String">
+        <value>GreaterThan	0	Show	Skip</value>
+      </setting>
+      <setting name="VertexAlphaDetails" serializeAs="String">
+        <value>False	False	0	100	10	100	False	False</value>
+      </setting>
+      <setting name="VertexLabelFillColorSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="GroupCollapsedSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexLabelPositionDetails" serializeAs="String">
+        <value>GreaterThan	1	Bottom Center	Nowhere</value>
+      </setting>
+      <setting name="VertexShapeDetails" serializeAs="String">
+        <value>GreaterThan	0	Solid Square	Disk</value>
+      </setting>
+      <setting name="GroupCollapsedDetails" serializeAs="String">
+        <value>GreaterThan	0	Yes	No</value>
+      </setting>
+      <setting name="EdgeWidthDetails" serializeAs="String">
+        <value>False	False	0	0	3	10	False	False</value>
+      </setting>
+      <setting name="VertexPolarRDetails" serializeAs="String">
+        <value>False	False	0	0	0	1	False	False</value>
+      </setting>
+      <setting name="VertexAlphaSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexVisibilitySourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexLabelSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexToolTipSourceColumnName" serializeAs="String">
+        <value>Label</value>
+      </setting>
+      <setting name="EdgeWidthSourceColumnName" serializeAs="String">
+        <value>weight</value>
+      </setting>
+      <setting name="EdgeAlphaSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexPolarAngleSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EdgeStyleSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EdgeStyleDetails" serializeAs="String">
+        <value>GreaterThan	0	Solid	Dash</value>
+      </setting>
+      <setting name="VertexPolarAngleDetails" serializeAs="String">
+        <value>False	False	0	0	0	359	False	False</value>
+      </setting>
+      <setting name="VertexYSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EdgeVisibilitySourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexRadiusDetails" serializeAs="String">
+        <value>False	False	0	0	300	1000	True	False</value>
+      </setting>
+      <setting name="EdgeColorSourceColumnName" serializeAs="String">
+        <value>weight</value>
+      </setting>
+      <setting name="VertexXDetails" serializeAs="String">
+        <value>False	False	0	0	0	9999	False	False</value>
+      </setting>
+      <setting name="GroupLabelSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexColorSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="EdgeAlphaDetails" serializeAs="String">
+        <value>False	False	0	0	30	15	True	False</value>
+      </setting>
+      <setting name="VertexLabelPositionSourceColumnName" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexLayoutOrderDetails" serializeAs="String">
+        <value>False	False	0	0	1	9999	False	False</value>
+      </setting>
+      <setting name="VertexVisibilityDetails" serializeAs="String">
+        <value>GreaterThan	0	Show if in an Edge	Skip</value>
+      </setting>
+      <setting name="VertexYDetails" serializeAs="String">
+        <value>False	False	0	0	0	9999	False	False</value>
+      </setting>
+    </AutoFillUserSettings3>
+    <GroupUserSettings>
+      <setting name="ReadGroups" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ReadVertexShapeFromGroups" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ReadVertexColorFromGroups" serializeAs="String">
+        <value>True</value>
+      </setting>
+    </GroupUserSettings>
+    <ColumnGroupUserSettings>
+      <setting name="ColumnGroupsToShow" serializeAs="String">
+        <value>EdgeDoNotHide, EdgeLabels, EdgeGraphMetrics, EdgeOtherColumns, VertexDoNotHide, VertexGraphMetrics, VertexLabels, VertexOtherColumns, GroupDoNotHide, GroupLabels, GroupGraphMetrics, GroupEdgeDoNotHide, GroupEdgeGraphMetrics</value>
+      </setting>
+    </ColumnGroupUserSettings>
+    <ClusterUserSettings>
+      <setting name="PutNeighborlessVerticesInOneCluster" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ClusterAlgorithm" serializeAs="String">
+        <value>ClausetNewmanMoore</value>
+      </setting>
+    </ClusterUserSettings>
+    <GraphZoomAndScaleUserSettings>
+      <setting name="GraphScale" serializeAs="String">
+        <value>0.28</value>
+      </setting>
+    </GraphZoomAndScaleUserSettings>
+    <GeneralUserSettings4>
+      <setting name="NewWorkbookGraphDirectedness" serializeAs="String">
+        <value>Undirected</value>
+      </setting>
+      <setting name="ReadEdgeLabels" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ShowGraphLegend" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ShowGraphAxes" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="ReadVertexLabels" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ReadGroupLabels" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="EdgeColor" serializeAs="String">
+        <value>Gray</value>
+      </setting>
+      <setting name="AxisFont" serializeAs="String">
+        <value>Microsoft Sans Serif, 8.25pt</value>
+      </setting>
+      <setting name="EdgeBezierDisplacementFactor" serializeAs="String">
+        <value>0.2</value>
+      </setting>
+      <setting name="BackgroundImageUri" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="VertexRadius" serializeAs="String">
+        <value>1.5</value>
+      </setting>
+      <setting name="EdgeWidth" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="RelativeArrowSize" serializeAs="String">
+        <value>6</value>
+      </setting>
+      <setting name="VertexEffect" serializeAs="String">
+        <value>OuterGlow</value>
+      </setting>
+      <setting name="VertexRelativeOuterGlowSize" serializeAs="String">
+        <value>3</value>
+      </setting>
+      <setting name="VertexColor" serializeAs="String">
+        <value>Black</value>
+      </setting>
+      <setting name="VertexAlpha" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="LabelUserSettings" serializeAs="String">
+        <value>Microsoft Sans Serif, 36pt	White	BottomCenter	2147483647	2147483647	Black	False	550	Black	86	MiddleCenter	Microsoft Sans Serif, 8.25pt	Microsoft Sans Serif, 14.25pt</value>
+      </setting>
+      <setting name="SelectedVertexColor" serializeAs="String">
+        <value>Red</value>
+      </setting>
+      <setting name="BackColor" serializeAs="String">
+        <value>White</value>
+      </setting>
+      <setting name="AutoSelect" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="EdgeAlpha" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="AutoReadWorkbook" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="EdgeBundlerStraightening" serializeAs="String">
+        <value>0.15</value>
+      </setting>
+      <setting name="VertexImageSize" serializeAs="String">
+        <value>100</value>
+      </setting>
+      <setting name="SelectedEdgeColor" serializeAs="String">
+        <value>Red</value>
+      </setting>
+      <setting name="VertexShape" serializeAs="String">
+        <value>Label</value>
+      </setting>
+      <setting name="EdgeCurveStyle" serializeAs="String">
+        <value>CurveThroughIntermediatePoints</value>
+      </setting>
+    </GeneralUserSettings4>
+  </userSettings>
+</configuration>
